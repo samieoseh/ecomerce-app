@@ -43,7 +43,7 @@ const StyledDropdown = styled(Dropdown)`
     padding: 5px 10px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
   }
 
@@ -52,6 +52,6 @@ const StyledDropdown = styled(Dropdown)`
     color: #fff;
     font-family: 'Roboto', sans-serif;
     padding: 0 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
 `;

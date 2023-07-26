@@ -44,20 +44,20 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
+  padding: 1px 0;
 
   // Style for the support link
   a {
     margin-left: 8vw;
     color: rgb(249, 249, 249);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
   }
 
   // Style for the discount message
   p {
     color: rgb(249, 249, 249);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
 
     // Style for the first span inside the discount message
@@ -72,7 +72,7 @@ const Container = styled.div`
       color: #fff;
       font-family: 'Roboto', sans-serif;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `
