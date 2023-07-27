@@ -42,10 +42,12 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  min-height: 70px;
   h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     margin-left: 8vw;
     font-size: 16px;
+    color: #f18eb9;
   }
 `
 
@@ -64,6 +66,8 @@ const Menu = styled.div`
         color: rgb(159, 159, 159);
         padding: 0 16px;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+        font-family: 'Roboto';
+
         &:hover {
           color: #111;
 
@@ -92,6 +96,7 @@ const SearchWrapper = styled.div`
     background-color: transparent;
     color: #111;
     outline: none;
+    font-family: 'Roboto';
   }
 `
 
@@ -112,6 +117,7 @@ const Wrap = styled.div`
     font-size: 14px;
     padding: 0 4px;
     cursor: pointer;
+    font-family: 'Roboto';
   }
 `
 
